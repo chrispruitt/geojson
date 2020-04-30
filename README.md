@@ -1,5 +1,6 @@
-# Find/Create a geojson
-with county fips and use this script to convert the county fips from string to numeric if needed.
+# geojson by county fips with numeric codes quick and dirty
+1. Find a county fips geojson or topojson (convert topojson with the useful tools below)
+2. Use this script to convert the county fips from string to numeric if needed.
 ```bash
 python convert_types.py -o <output_file>
 ```
